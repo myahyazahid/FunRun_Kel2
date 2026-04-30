@@ -25,7 +25,7 @@ CatatLari adalah aplikasi Android yang digunakan untuk membantu pengguna mencata
 ## ⚙️ Tech Stack
 1. Kotlin : Bahasa pemrograman utama yang digunakan untuk mengembangkan aplikasi Android.
 2. Android SDK : Framework yang menyediakan tools dan API untuk membangun aplikasi Android.
-3. MVVM (Model-View-ViewModel) : Arsitektur aplikasi yang digunakan untuk memisahkan antara tampilan, logika aplikasi, dan pengolahan data agar lebih terstruktur dan mudah dikembangkan.
+3. MVVM (Model-View-ViewModel) : Arsitektur aplikasi yang digunakan untuk memisahkan antara tampilan, logika aplikasi, dan pengolahan data agar lebih terstruktur dan mudah untuk dikembangkan.
 4. LiveData : Digunakan untuk mengamati perubahan data secara real-time dan mengupdate UI secara otomatis.
 5. RecyclerView : Digunakan untuk menampilkan data dalam bentuk list secara efisien.
 6. View Binding : Digunakan untuk menghubungkan file layout XML dengan kode Kotlin secara aman dan menghindari kesalahan null pointer.
