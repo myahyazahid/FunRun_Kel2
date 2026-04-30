@@ -30,3 +30,14 @@ CatatLari adalah aplikasi Android yang digunakan untuk membantu pengguna mencata
 5. RecyclerView : Digunakan untuk menampilkan data dalam bentuk list secara efisien.
 6. View Binding : Digunakan untuk menghubungkan file layout XML dengan kode Kotlin secara aman dan menghindari kesalahan null pointer.
 7. Room Database : Library dari Android Jetpack yang digunakan untuk menyimpan data secara lokal. Room bekerja di atas SQLite, namun menyediakan abstraksi yang lebih mudah sehingga pengembang tidak perlu menulis query SQL secara manual.
+
+## 📉 Improve Aplikasi Catat Lari
+🎨 Peningkatan Tampilan (UI/UX)
+- Menerapkan warna utama ungu (#7C4DFF) sebagai identitas visual yang konsisten
+- Menggunakan header melengkung untuk memberikan kesan modern dan elegan
+- Menampilkan data dengan card-based layout agar lebih rapi dan mudah dibaca
+- Menggunakan font Poppins untuk tampilan yang bersih dan profesional
+- Menyediakan empty state yang informatif saat belum ada data
+- Menggunakan Floating Action Button (FAB) untuk mempermudah penambahan data
+- Menggunakan Bottom Navigation Bar untuk navigasi yang lebih intuitif
+- Menerapkan perbedaan warna tombol aksi (ungu untuk edit, merah untuk hapus) agar mudah dikenali
