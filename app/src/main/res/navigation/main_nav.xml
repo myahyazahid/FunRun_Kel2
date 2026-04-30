@@ -10,19 +10,31 @@
         android:id="@+id/homeFragment"
         android:name="com.upn.catatlari.view.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_addRunFragment"
             app:destination="@id/addRunFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_editRunFragment"
+            app:destination="@id/editRunFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/addRunFragment"
         android:name="com.upn.catatlari.view.AddRunFragment"
         android:label="fragment_add_run"
         tools:layout="@layout/fragment_add_run" />
+
+    <fragment
+        android:id="@+id/editRunFragment"
+        android:name="com.upn.catatlari.view.EditRunFragment"
+        android:label="fragment_edit_run"
+        tools:layout="@layout/fragment_edit_run" />
+
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.upn.catatlari.view.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+
 </navigation>
