@@ -29,7 +29,7 @@ CatatLari adalah aplikasi Android yang digunakan untuk membantu pengguna mencata
 4. LiveData : Digunakan untuk mengamati perubahan data secara real-time dan mengupdate UI secara otomatis.
 5. RecyclerView : Digunakan untuk menampilkan data dalam bentuk list secara efisien.
 6. View Binding : Digunakan untuk menghubungkan file layout XML dengan kode Kotlin secara aman dan menghindari kesalahan null pointer.
-7. Room Database : Library dari Android Jetpack yang digunakan untuk menyimpan data secara lokal. Room bekerja di atas SQLite, namun menyediakan abstraksi yang lebih mudah sehingga pengembang tidak perlu menulis query SQL secara manual.
+7. Room Database : Library dari Android Jetpack yang digunakan untuk menyimpan data secara lokal di perangkat. Room dibangun di atas SQLite, tetapi menyediakan lapisan abstraksi yang lebih sederhana dan terstruktur, sehingga pengembang dapat mengelola database tanpa harus menulis query SQL secara manual.
 
 ## 📉 Improve Aplikasi Catat Lari
 🎨 Peningkatan Tampilan (UI/UX)
